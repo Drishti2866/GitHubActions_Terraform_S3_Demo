@@ -1,12 +1,12 @@
-resource "aws_s3_bucket" "bucket1" {
+resource "aws_s3_bucket" "bucket4" {
 	bucket = "drishti-first-bucket"
 }
 
-resource "aws_s3_bucket" "bucket2" {
+resource "aws_s3_bucket" "bucket5" {
     
 }
 
-resource "aws_s3_bucket" "bucket3" {
+resource "aws_s3_bucket" "bucket6" {
 	bucket = "drishti-third-bucket"
 }
 

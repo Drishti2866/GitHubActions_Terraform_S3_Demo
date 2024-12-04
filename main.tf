@@ -6,6 +6,10 @@ resource "aws_s3_bucket" "bucket2" {
     
 }
 
+resource "aws_s3_bucket" "bucket3" {
+	bucket = "drishti-third-bucket"
+}
+
 provider "aws" {
     region = "us-east-1"
 }

@@ -1,13 +1,13 @@
-resource "aws_s3_bucket" "bucket4" {
-	bucket = "drishti-first-bucket"
+resource "aws_s3_bucket" "bucket7" {
+	bucket = "drishti-seventh-bucket"
 }
 
-resource "aws_s3_bucket" "bucket5" {
+resource "aws_s3_bucket" "bucket8" {
     
 }
 
-resource "aws_s3_bucket" "bucket6" {
-	bucket = "drishti-third-bucket"
+resource "aws_s3_bucket" "bucket9" {
+	bucket = "drishti-ninth-bucket"
 }
 
 provider "aws" {
